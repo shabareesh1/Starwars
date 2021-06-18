@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+  font-family: sans-serif;
+}
+.Star{
+  display: block;
+
+}
+.App{
+  margin : 50px;
+
+}
+.StarwarCard{
+margin-top: 30px;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  padding: 30px;
+  border : 1px solid black;
+
+}
+
+.StarwarCard:hover {
+  background-color: ghostwhite;
+}
+.details{
+  height : 300px;
+  padding: 20px;
+  background-color: whitesmoke;
+}
