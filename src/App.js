@@ -14,7 +14,7 @@ class App extends Component {
      /*This change is to overide master*/ 
    /* master changed again*/
    /*shabareesh again againrebasing again test*/
-   const data =  getCharacters()
+   const datas =  getCharacters()
       data.then(data =>{
           if(data.message === 'ok'){
 
