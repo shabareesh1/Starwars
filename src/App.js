@@ -12,15 +12,12 @@ class App extends Component {
 
  async componentDidMount() {
      /*This change is to overide master*/ 
-<<<<<<< HEAD
+
      /**im gonna do something  */
-=======
    /* master changed again*/
-<<<<<<< HEAD
->>>>>>> ffd4075fd6f7094c4383a46c6a9dc8b10b2d1a99
-=======
+
    /*rebasing again test*/
->>>>>>> c30303656c4e75e9b258a552250bf17ceb0b9129
+
    const data =  getCharacters()
       data.then(data =>{
           if(data.message === 'ok'){
