@@ -11,6 +11,7 @@ class App extends Component {
   }
 
  async componentDidMount() {
+     /*This change is added today*/ 
    const data =  getCharacters()
       data.then(data =>{
           if(data.message === 'ok'){
